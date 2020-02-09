@@ -7,6 +7,8 @@ The example is that in first table we have companies and in second we have the e
 unique id and the company name field of the companies table as fields in the employee table.
 
 Delete: a normal version of a delete operation
+
 DeleteIn2Tables: Here we have 2 tables and before we delete an entry in table 1 we first delete all entries in table 2 that have the
 same id in their field.
+
 Get: 
