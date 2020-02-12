@@ -29,7 +29,7 @@ exports.handler = function (event, context, callback) {
         }else{
             var not_found_company = true;
             data.Items.forEach((item) => {
-                if (item.company_name == event.company_name) {      //if the company name exists ti saves the unique id for the company 
+                if (item.company_name == event.company_name) {      //if the company name exists it saves the unique id for the company 
                     id2= item.a_id;  
                     not_found_company = false;  
                 }                                              
